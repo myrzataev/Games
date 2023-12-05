@@ -7,7 +7,7 @@ A new Flutter project.
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
-![Project Image](https://github.com/myrzataev/Games/assets/99857663/f1f21b29-bd10-4d85-9ad0-be7fbccc7a82)]
+<img src = "https://github.com/myrzataev/Games/assets/99857663/f1f21b29-bd10-4d85-9ad0-be7fbccc7a82" alt = "Image", height = "700", width = "300" >
 
 
 
