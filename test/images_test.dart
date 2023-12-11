@@ -10,6 +10,7 @@ void main() {
     expect(File(Images.timerIcon).existsSync(), isTrue);
     expect(File(Images.baketballBackground).existsSync(), isTrue);
     expect(File(Images.basketball).existsSync(), isTrue);
+    expect(File(Images.basketballScreenBakground).existsSync(), isTrue);
     expect(File(Images.football).existsSync(), isTrue);
     expect(File(Images.footballBackground).existsSync(), isTrue);
     expect(File(Images.hockeyBackground).existsSync(), isTrue);

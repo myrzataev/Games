@@ -9,6 +9,8 @@ class Images {
   static const String baketballBackground =
       'assets/pngs/baketball_background.png';
   static const String basketball = 'assets/pngs/basketball.png';
+  static const String basketballScreenBakground =
+      'assets/pngs/basketballScreenBakground.png';
   static const String football = 'assets/pngs/football.png';
   static const String footballBackground =
       'assets/pngs/football_background.png';

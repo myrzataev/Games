@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:quiz_game/screens/main_screen.dart';
+import 'package:quiz_game/services/shared_preferences_manager.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -11,15 +12,18 @@ class MyApp extends StatelessWidget {
       designSize: const Size(393, 852),
       builder: (_, child) {
         return MaterialApp(
-          debugShowCheckedModeBanner: false,
-          theme: ThemeData(),
-          home: const MainScreen(),
-        );
+            debugShowCheckedModeBanner: false,
+            theme: ThemeData(),
+            home: MainScreen());
       },
     );
   }
 }
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await SharedPreferencesManager.instance.init();
+
   runApp(const MyApp());
 }

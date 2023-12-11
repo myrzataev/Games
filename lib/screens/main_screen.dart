@@ -1,6 +1,7 @@
+
 import 'package:flutter/material.dart';
-import 'package:quiz_game/data/models/best_scores_model.dart';
-import 'package:quiz_game/data/models/sports_models.dart';
+import 'package:quiz_game/models/best_scores_model.dart';
+import 'package:quiz_game/models/sports_models.dart';
 
 import 'package:quiz_game/widgets/custom_card_category.dart';
 import 'package:quiz_game/widgets/text_widget.dart';
@@ -15,8 +16,8 @@ class MainScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
-          Color(0xFF317166),
-          Color.fromARGB(255, 0, 0, 0).withOpacity(0.88)
+          const Color(0xFF317166),
+          const Color.fromARGB(255, 0, 0, 0).withOpacity(0.88)
         ], begin: Alignment.topCenter, end: Alignment.center)),
         child: SafeArea(
             child: Center(
@@ -47,7 +48,7 @@ class MainScreen extends StatelessWidget {
                   height: MediaQuery.of(context).size.height * 0.72,
                   child: ListView.builder(
                     itemBuilder: (context, index) =>
-                        Sports(model: SportsData.sports[index]),
+                        Sports(model: SportsData.sports[index],),
                     itemCount: SportsData.sports.length,
                   ),
                 ),
