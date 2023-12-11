@@ -44,7 +44,7 @@ class _DetailPageState extends State<QuizScreen> {
     // TODO: implement initState
     super.initState();
     _pageController = PageController(initialPage: 0);
-    timeSeconds = 5;
+    timeSeconds = 15;
     startTimer();
   }
 
@@ -261,7 +261,7 @@ class _DetailPageState extends State<QuizScreen> {
   }
 
   void resetTimer() {
-    timeSeconds = 5;
+    timeSeconds = 15;
   }
 
   @override
