@@ -17,6 +17,6 @@ For help getting started with Flutter development, view the [online documentatio
 <img src="https://github.com/myrzataev/Games/assets/99857663/363e5ba3-cec7-45da-bba0-bcc878a94794" alt="Screenshot 2" width="200">
 <img src="https://github.com/myrzataev/Games/assets/99857663/8b6910fe-cb50-4cf7-858e-3740e95de182" alt="Screenshot 3" width="200">
 <img src="https://github.com/myrzataev/Games/assets/99857663/cac8f6c3-26ef-4f9b-91ef-349d78641b42" alt="Screenshot 4" width="200">
-![Simulator Screenshot - iPhone 14 Pro - 2023-12-12 at 00 39 47](https://github.com/myrzataev/Games/assets/99857663/8be9d0ec-c673-4058-8004-54431221eaa2)
+
 <img src="https://github.com/myrzataev/Games/assets/99857663/8be9d0ec-c673-4058-8004-54431221eaa2" alt="Screenshot 5" width="200">
 
